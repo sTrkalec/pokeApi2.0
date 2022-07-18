@@ -23,7 +23,6 @@ function getApi() {
         response.innerHTML = html
         
         img.innerHTML = `<img src= "${data.sprites.front_default}">
-                        
                          <img src= "${data.sprites.back_default}">
                          <img src= "${data.sprites.front_shiny}">
                          <img src= "${data.sprites.back_shiny}">
