@@ -44,6 +44,10 @@ hr{
 span{
     color: #3c5791;
 }
+p{
+    font-weight: bold;
+    font-size: 10px;
+}
 
 #imgPokemon img{
     border: 1px solid #333;
