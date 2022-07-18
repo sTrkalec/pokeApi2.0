@@ -36,8 +36,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo para mais detalhes.
 
 ## Link
 Acesse: <a href="https://strkalec.github.io/pokeApi2.0/" target="_blank">CLIQUE AQUI PARA CONFERIR</a>
----
 <hr>
-<br>
 
 Feito com ♥ by Gabriel Miranda
