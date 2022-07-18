@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(241, 241, 241) !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.padrao{
+    background-color: white;
+    border: 2px solid #ccc;
+    margin: 50% auto 50% auto;
+    border-radius: 10px;
+    max-width: 750px !important;
+    min-height: 300px;
+}
+
+
+hr{
+    border-top: 4px solid !important;
+    border-radius: 10px;
+    padding: auto 60px auto 60px
+}
+.padrao h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#img-logo{
+    width: 60%;
+}
+
+span{
+    color: #3c5791;
+}
+
+#imgPokemon img{
+    border: 1px solid #333;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+form label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1b356e;
+}
+
+form input[type=submit]{
+    background: #1b356e;
+    border: 0px solid;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+form input[type=submit]:hover{
+    background: #101f41;
+}
+form input[type=text]{
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 45px;
+}
+
+#content{
+    font-family: monospace;
+    padding: 10px;
+    background: #ffcc01;
+    border: 1px solid #c8a102;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+    color: #333;
+}

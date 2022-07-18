@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/30dfc198c9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Pokemon API</title>
+    <link rel="shortcut icon" href="./assets/img/frente.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container padrao">
+        <div class="row">
+            <div class="col-12">
+                <div class="mx-3 mt-2 text-end">
+                    <a href="https://twitter.com/cryptozo12" class="btn btn-secondary" target="_blank"><i
+                            class="fa-brands  fa-twitter"></i></a>
+                    <a href="https://instagram.com/gabriel_vsm_" class="btn btn-secondary" target="_blank"><i
+                            class="fa-brands  fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/strkalec/" class="btn btn-secondary" target="_blank"><i
+                            class="fa-brands  fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 pt-3">
+                <h1>Trabalhando com <span>HTML</span>, <span>CSS</span> e usando o <span>JAVASCRIPT</span> para fazer
+                    consultas online.</h1>
+            </div>
+        </div>
+        <hr class="mt-0 hrTest">
+        <div class="row text-center mb-3">
+            <div class="col-12">
+                <img src="/assets/img/pokemon-logo.png" class="img-fluid width" id="img-logo" alt="pokemon-logo">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form class="text-center d-flex flex-column form">
+                    <label class="mb-2 d-flex">Nome do pokemon</label>
+                    <input type="text" id="name" placeholder="Exemplo: Pikachu ou 25" required>
+                    <input type="submit" value="Pesquisar" class="mt-2">
+                </form>
+            </div>
+        </div>
+
+        <div class="text-center" id="imgPokemon">
+        </div>
+
+        <div class="mt-2 mb-2" id="content">
+            ...
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
