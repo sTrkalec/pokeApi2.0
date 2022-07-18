@@ -1,4 +1,4 @@
-## PokedexAPI2.0
+## PokeAPI 2.0
 
 <p align="center">
     <img src = "https://user-images.githubusercontent.com/57048555/179449874-52c716e1-bb4b-47be-9565-5bd5f3e43a38.png" alt="Print">
